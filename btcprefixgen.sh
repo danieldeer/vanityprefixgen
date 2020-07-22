@@ -1,5 +1,13 @@
 #!/bin/bash
 
+
+usage="$(basename "$0") [-i] inputfile [-o] outputfile -- Generate a BTC vanity address pattern list from any wordlist!
+
+where:
+    -i  input wordlist
+    -o  output file"
+
+
 while [[ $# -gt 0 ]]
 do
 key="$1"
